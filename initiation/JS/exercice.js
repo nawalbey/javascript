@@ -33,18 +33,32 @@
 // console.log(premierPrenom);
 // alert(premierPrenom);
 
-// var nb1 = prompt();
-// console.log(typeof nb1);
-// nb1 = parseInt(nb1);
-// console.log(typeof nb1);
-// var nb2 = 7;
-// var resultat = nb1 % nb2;
-// resultat += nb2;
-// console.log(resultat);
-// alert(resultat);
+var nb1 = prompt();
+console.log(typeof nb1);
+nb1 = parseInt(nb1);
+console.log(typeof nb1);
+var nb2 = 7;
+var resultat = nb1 % nb2;
+resultat += nb2;
+console.log(resultat);
+alert(resultat);
 
 var ht = prompt();
 
 var ttc = ht * 1.2;
 
 document.write(ttc)
+
+// console.log(fruits);
+// //Ajouter à la fin du tableau
+// var newLength = fruits.push("Orange");
+// // ["Apple", "Banana", "Orange"]
+
+// var lastElement = fruits.pop();
+
+// console.log(
+//   "Tableau fruits après avoir supprimé le dernier élement : " + fruits
+// );
+// console.log("La taille finale du tableau : " + fruits.length);
+// console.log(typeof fruits);
+// console.log("La valeur du dernier élement supprimé : " + lastElement);
