@@ -47,7 +47,7 @@ var ht = prompt();
 
 var ttc = ht * 1.2;
 
-document.write(ttc)
+document.write(ttc);
 
 // console.log(fruits);
 // //Ajouter à la fin du tableau
@@ -64,16 +64,15 @@ document.write(ttc)
 // console.log("La valeur du dernier élement supprimé : " + lastElement);
 
 //1-une fonction sans parametre et sans valeur de retour
-function affichege () {
-    console.log( coucou);
+function affichage() {
+  console.log(coucou);
 }
 
 affichage();
 
 //2- une fonction avec un parametre et sans valeur de retour
-function affichagesurlapageweb( chaineCaractere) {
-    document.write(chaineCaracter);
-
+function affichagesurlapageweb(chaineCaractere) {
+  document.write(chaineCaractere);
 }
 
 affichagesurlapageweb("narci est cool</p>");
@@ -81,20 +80,20 @@ affichagesurlapageweb("wassila est belle</p>");
 
 //console.log(affichagesurlapageweb("<p>Cynthia est curieuse</p>"));
 
-var aff=affichagesurlapageweb("p>cynthia est curieuse</p>")
+var aff = affichagesurlapageweb("p>cynthia est curieuse</p>");
 
 console.log(aff);
 
 //2- une fonction avec deux parametre et avec une valeur de retour
-function aditions( num1, num2) {
-    var resultat= num1 + num2;
-    // moy clé""return" nous permet d'avoir une valeur de retour au moment ou on execute la fonction
-    //attention avec ce mot cle "return" on aura toujours une seule valeur de retour
-    // return resultat + "coucou"
-    return resultat;
-    
+function aditions(num1, num2) {
+  var resultat = num1 + num2;
+  // moy clé""return" nous permet d'avoir une valeur de retour au moment ou on execute la fonction
+  //attention avec ce mot cle "return" on aura toujours une seule valeur de retour
+  // return resultat + "coucou"
+  return resultat;
 }
 
-//quand on execute une fontion qui prend des parametres, en general au moment d'implantation de la fonction, les parametres jouent le role des variables 
-additions(2, 3);
+aditions(2, 3);
+aditions(num1, num2);
+//quand on execute une fontion qui prend des parametres, en general au moment d'implantation de la fonction, les parametres jouent le role des variables
 
