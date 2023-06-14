@@ -18,9 +18,9 @@ console.log(nombre2);
 // 4 déclarer une fonction "afficheAge" qui prend en paramétre un nombre
 // la fonction n'a pas de valeur de retour
 
-while compteur =;
-while( compteur <3) {
-    console.log(indiquez monage);
-    monage ++i;
-}
+// while compteur =;
+// while( compteur <3) {
+//     console.log(indiquez monage);
+//     monage ++i;
+// }
 
