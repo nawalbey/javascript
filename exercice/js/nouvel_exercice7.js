@@ -47,7 +47,6 @@ if (nombre < nombre2) {
   document.write(nombre + "egale" + nombre2);
 }
 
-
 // var prenom = [
 //   "prenom1",
 //   "prenom2",
@@ -65,7 +64,6 @@ if (nombre < nombre2) {
 // var numero = Math.floor(Math.random() * 12);
 // document.write(prenom[numero]);
 
-
-// execution de la fonction : 
+// execution de la fonction :
 var fruits = fillArray(3);
 console.log(fruits);
