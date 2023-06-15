@@ -47,8 +47,25 @@ if (nombre < nombre2) {
   document.write(nombre + "egale" + nombre2);
 }
 
-// 1- Déclarer une fonction "fillArray" qui prend en paramètre un entier "num"
-//  2- dans la fonction :
-// 	a/Déclarer une variable de type tableau "addElement"
-//     b/Dans une boucle "for", utiliser une boîte dialogue afin de saisir des données (nombre de l'affichage de la boîte de dialogue dépend du nombre qui vient du paramètre utilisé dans la fonction)
-//     c/ Les données saisies à partir de la boîte de dialogue seront stockées dans le tableau "addElement"
+
+// var prenom = [
+//   "prenom1",
+//   "prenom2",
+//   "prenom3",
+//   "prenom4",
+//   "prenom5",
+//   "prenom6",
+//   "prenom7",
+//   "prenom8",
+//   "prenom9",
+//   "prenom10",
+//   "prenom11",
+//   "prenom12",
+// ];
+// var numero = Math.floor(Math.random() * 12);
+// document.write(prenom[numero]);
+
+
+// execution de la fonction : 
+var fruits = fillArray(3);
+console.log(fruits);
